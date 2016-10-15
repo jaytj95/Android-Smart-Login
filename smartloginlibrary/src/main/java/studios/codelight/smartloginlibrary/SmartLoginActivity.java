@@ -80,7 +80,7 @@ public class SmartLoginActivity extends AppCompatActivity implements
         //Set the facebook app id and initialize sdk
         FacebookSdk.setApplicationId(config.getFacebookAppId());
         //Moved to Application class
-        //FacebookSdk.sdkInitialize(getApplicationContext());
+        FacebookSdk.sdkInitialize(getApplicationContext());
 
         //Attaching the view
         //View v;
